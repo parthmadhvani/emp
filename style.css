@@ -1,0 +1,121 @@
+
+.navbar-nav{
+	position: absolute;
+	right: 15px;
+}
+
+.footer-cntus{
+	font-size: 24px;
+	font-weight: 500;
+	text-align: center;
+}
+
+.icon{
+	text-align: center;
+}
+
+.icon i{
+	margin: 10px;
+	font-size: 25px;
+}
+
+.techme{
+	font-size: 25px !important;
+	color: #5573d5 !important;
+	font-weight: 500 !important;
+}
+
+.footer{
+	padding: 85px;
+	height: 245px;
+	background-color: #5573d5;
+}
+
+.aboutus{
+	margin: 100px;
+}
+
+#heading{
+	font-size: 55px;
+	width: 273px;
+    margin-bottom: 5px;
+    font-weight: 530;
+    margin-top: 0;
+}
+
+#para{
+	font-size: 24px;
+}
+
+img{
+
+}
+ .text{
+	 display: inline-block;
+	 width: 250px;
+	 margin-left: 160px;
+
+ }
+.contactme{
+	width: 90%;
+	display: block;
+    margin: auto;
+}
+
+
+body{
+	margin: 0px;
+
+}
+
+header{
+	background: rgb(255, 255, 255);
+	color: #5573d5;
+}
+
+header h1{
+	display: inline;
+	font-family: 'Lobster', cursive;
+	font-weight: 400;
+	font-size: 32px;
+	float: left;
+	margin-top: 0px;
+	margin-right: 10px;
+}
+
+
+.homered{
+	background-color: #5573d5;
+	padding: 30px 10px 22px 10px;
+	border-radius: 10px;
+}
+
+td{
+	width: 50%;
+}
+.about_content{
+	margin: auto;
+    width: 60%;
+}
+
+.homeblack:hover{
+	color: #5573d5 !important;
+}
+
+img{
+	animation: load 0.8s ease;
+}
+
+@keyframes load{
+    from{position: relative;right: 40px; opacity: 0;}
+    to{right:-40px; opacity: 100%;}
+}
+
+.animation2{
+	animation: load2 0.8s ease;
+}
+
+@keyframes load2{
+    from{ opacity: 0;}
+    to{ opacity: 100%;}
+}

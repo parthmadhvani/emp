@@ -1,0 +1,95 @@
+.navbar-nav{
+	position: absolute;
+	right: 15px;
+}
+body{
+	margin: 0px;
+}
+
+header{
+	background: rgb(255, 255, 255);
+	color: #5573d5;
+	
+}
+
+p{
+	margin: auto;
+	color: #5573d5; 
+	font-weight: 700 !important; 
+	font-size: 100px ;
+	/* margin-right:0px; 
+	margin-top: 100px;  */
+	line-height: 1.2;
+	text-align: center;
+	animation :load 0.8s ease;
+
+}
+
+table{
+	width: 100%;
+	margin-top: 60px;
+}
+
+.image{
+	width: 50%;
+	text-align: center;
+}
+
+.welcome{
+	width: 50%;
+	text-align: center;
+}
+
+@keyframes load{
+    from{position: relative;top: 40px; opacity: 0;}
+    to{top:-40px; opacity: 100%;}
+}
+
+.techme{
+	font-size: 25px !important;
+	color: #5573d5 !important;
+	font-weight: 500 !important;
+}
+
+
+.homered{
+	background-color: #5573d5;
+	padding: 30px 10px 22px 10px;
+	border-radius: 10px;
+}
+
+.homeblack:hover{
+	color: #5573d5 !important;
+	
+}
+
+img{
+	margin: auto;
+	animation :load2 0.8s ease;
+}
+
+@keyframes load2{
+    from{ opacity: 0;}
+    to{ opacity: 100%;}
+}
+
+@media only screen and (max-width: 1119px) {
+	p{
+		color: #5573d5; 
+		font-weight: 700 !important; 
+		font-size: 70px ;
+		margin: auto;
+		margin-top: 100px; 
+		line-height: 1.2;
+		text-align: center;
+		animation :load 0.8s ease;
+	}
+
+	.td{
+		width: 45%;
+	}
+
+	img{
+		width: 100%;
+	}
+}
